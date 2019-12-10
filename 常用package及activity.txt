@@ -1,0 +1,40 @@
+1.中国区媒体中心
+{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.MainActivity'}
+
+2.进入海外Googlesetting主页面
+{'package': 'com.google.android.tvlauncher', 'activity': 'com.google.android.tvlauncher.HomeScreen'}
+
+3.中国区主页
+{'package': 'com.tcl.cyberui', 'activity': 'com.tcl.cyberui.MainActivity'}
+
+4.中国区电视卫士
+{'package': 'com.tcl.tvweishi', 'activity': 'com.tcl.tvweishi.activity.MainActivity'}
+
+5.中国区打开图片
+{'package': 'com.tcl.common.viewer', 'activity': 'com.tcl.common.viewer.ImageViewerUI'}
+
+6.在CMD里输入"python -m weditor"可以启动网页查看控件的元素，但是前提是首先adb连接成功(TUiAutoMator实例化)
+
+7.海外视频：
+正在播放：{'package': 'com.tcl.videoplayer', 'activity': 'com.tcl.common.mediaplayer.video.UI.VideoPlayerActivity'}
+在文件夹里：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.PhotoAndVideoFolderBrowserActivity'}
+在文件夹上：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.MediaBrowserActivity'}
+在VIdeo焦点上：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.MediaBrowserActivity'}
+
+8.海外图片：
+打开状态：{'package': 'com.tcl.imageplayer', 'activity': 'com.tcl.imageplayer.ImageViewer'}
+在文件夹里：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.PhotoAndVideoFolderBrowserActivity'}
+在文件夹上：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.MediaBrowserActivity'}
+在Picture焦点上：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.MediaBrowserActivity'}
+
+9.海外音乐：
+播放状态：{'package': 'com.tcl.audioplayer', 'activity': 'com.tcl.audioplayer.ui.AudioPlayerActivity'}
+在文件夹里：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.AudioAndAllFolderBrowserActivity'}
+在文件夹上：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.MediaBrowserActivity'}
+在Audio焦点上：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.MediaBrowserActivity'}
+
+10.其他媒体中心位置
+空文件夹里：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.AudioAndAllFolderBrowserActivity'}
+空文件夹上：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.AudioAndAllFolderBrowserActivity'}
+测试音频1：{'package': 'com.tcl.ui_mediaCenter', 'activity': 'com.tcl.ui_mediaCenter.main.AudioAndAllFolderBrowserActivity'}
+、
